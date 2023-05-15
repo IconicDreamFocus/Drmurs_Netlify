@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { io } from "socket.io-client";
 
-export const endpoint = "https://drmurs.com/api";
-export const chatpoint = "https://drmurs.com";
+export const endpoint = "https://api.drmurs.com/api";
+export const chatpoint = "https://api.drmurs.com";
 
 export var token = window.localStorage.getItem("token");
 //export var dp = window.localStorage.getItem("dp");
